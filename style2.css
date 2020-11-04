@@ -1,0 +1,198 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.myHeader{
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(11,1fr);
+    grid-template-rows: repeat(7,1fr);
+
+    height: 900px;
+    width: 1100;
+    margin: 200px;
+}
+
+.grid-item{
+    border: black 8px solid;
+    background-size: cover;
+}
+@media screen and (max-width:600px){
+    .container{
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(18,1fr);
+    
+        height: 1700px;
+        width: 600px;
+        margin: auto;
+    }
+    
+    .div1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(01.jpg);
+    }
+    
+    .div2{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url(02.jpg);
+    }
+    
+    .div3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        background-image: url(03.jpg);
+    }
+    
+    .div4{
+        grid-column-start:3 ;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 8;
+        background-image: url(04.jpg);
+    }
+    
+    .div5{
+        grid-column-start:4 ;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-image: url(05.jpg);
+    }
+    
+    .div6{
+        grid-column-start:5 ;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 5;
+        background-image: url(08.jpg);
+    }
+    
+    .div7{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        background-image: url(07.jpg);
+    }
+    
+    .div8{
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        background-image: url(09.jpg);
+    }
+    
+    .div9{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 7;
+        background-image: url(10.jpg);
+    }
+    
+    .div10{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        background-image: url(12.jpg);
+    }
+    
+    .div11{
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 6;
+        grid-row-end: 8;
+        background-image: url(11.jpg);
+    }
+    
+    .div12{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 13;
+        background-image: url(06.jpg);
+    }
+    
+    .div13{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 8;
+        grid-row-end: 12;
+        background-image: url(14.jpg);
+    }
+    
+    .div14{
+        grid-row-start: 12;
+        grid-row-end: 16;
+        background-image: url(17.jpg);
+    }
+    
+    .div15{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 13;
+        grid-row-end: 15;
+        background-image: url(01.jpg);
+    }
+    
+    .div16{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 13;
+        grid-row-end: 15;
+        background-image: url(12.jpg);
+    }
+    
+    .div17{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 15;
+        grid-row-end: 17;
+        background-image: url(16.jpg);
+    }
+    
+    .div18{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 15;
+        grid-row-end: 17;
+        background-image: url(10.jpg);
+    }
+    
+    .div19{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 17;
+        grid-row-end: 18;
+        background-image: url(19.jpg);
+    }
+    .div20{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 18;
+        grid-row-end: 18;
+        background-image: url(20.jpg);
+    }
+    .div21{
+        display: none;
+    }
+
+    }
